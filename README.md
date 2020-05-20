@@ -50,7 +50,7 @@
 
 ​		Test files for Junit and Espresso testing.
 
-[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[Docs](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/Docs)/UserManual.md 
+[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[Docs](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/Docs)/**UserManual.md** 
 
 ​		User manual for application.                   
 
