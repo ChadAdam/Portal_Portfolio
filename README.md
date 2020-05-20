@@ -8,23 +8,20 @@
 
  
 
-1. [Portfolio](https://github.gatech.edu/cfakir3/Portfolio)/[DB](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/**team003_p2_schema.sql**      
-
-   The schema used in the database
-
-2. [Portfolio](https://github.gatech.edu/cfakir3/Portfolio)/[DB](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/**Program.cs**      
+1. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/**team003_p2_schema.sql**         
+2. The schema used in the database
+3. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/**Program.cs**      
 
 ​		Entry point to start database GUI.
 
-3. [Portfolio](https://github.gatech.edu/cfakir3/Portfolio)/[DB](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**QueryExecutor.cs**      
-
-   In file is the connection to database :
+3. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**QueryExecutor.cs**          
+4. In file is the connection to database :
 
 | private readonly string conn_string = "Server=cs6400db.ryan-moore.dev; Port=5432; User Id = DBUser; Password=group003; Database=CS6400"; |
 | ------------------------------------------------------------ |
 | This was the private database we created to used in the simulation for our group. |
 
-​    4. [Portfolio](https://github.gatech.edu/cfakir3/Portfolio)/[DB](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.gatech.edu/cfakir3/Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**SqlTextAll.cs**      
+​    4. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**SqlTextAll.cs**      
 
 ​		Queries that make up functionalities as per the spec requirements. 
 
