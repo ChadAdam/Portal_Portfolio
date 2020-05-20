@@ -1,6 +1,6 @@
 # Project Plan
 
-**Author**: CS6300 Spring 2020 Team106
+**Author**: Team106
 
 ## 1 Introduction
 
