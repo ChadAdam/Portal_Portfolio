@@ -49,7 +49,10 @@
 [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[WordFind6300](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300)/[app](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app)/[src](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src)/[androidTest](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest)/[java](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest/java)/[edu](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest/java/edu)/[gatech](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest/java/edu/gatech)/[seclass](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest/java/edu/gatech/seclass)/**wordfind6300**/
 
 ​		Test files for Junit and Espresso testing.
-                    
+
+[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[Docs](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/Docs)/UserManual.md 
+
+​		User manual for application.                   
 
 [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[APK](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/APK)/**WordFind6300.apk**      
 
