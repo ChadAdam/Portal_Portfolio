@@ -56,7 +56,7 @@
 
 
 
-## Data Analytics using Python
+## **Data Exploration and Network Analysis** using Python
 
 https://github.com/ChadAdam/Network-Analysis
 
