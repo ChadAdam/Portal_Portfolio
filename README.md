@@ -20,7 +20,7 @@
 
 | private readonly string conn_string = "Server=cs6400db.ryan-moore.dev; Port=5432; User Id = DBUser; Password=group003; Database=CS6400"; |
 | ------------------------------------------------------------ |
-| This was the private database we created to used in the simulation for our group. |
+| This was the private database we created to use in the simulation for our group. |
 
  [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**SqlTextAll.cs**      
 
