@@ -1,4 +1,4 @@
-# Portfolio
+# Graduates Study Portfolio
 
 ## Database Design and Management using PostgreSQL and C#       
 
@@ -54,3 +54,10 @@
 
 ​		The apk file to run. 
 
+
+
+## Data Analytics using Python
+
+https://github.com/ChadAdam/Network-Analysis
+
+https://github.com/ChadAdam/Machine_Learning
