@@ -8,20 +8,21 @@
 
  
 
-1. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/**team003_p2_schema.sql**         
-2. The schema used in the database
-3. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/**Program.cs**      
+[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/**team003_p2_schema.sql**         		The schema used in the database.
+
+[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/**Program.cs**      
 
 ​		Entry point to start database GUI.
 
-3. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**QueryExecutor.cs**          
-4. In file is the connection to database :
+[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**QueryExecutor.cs**          
+
+​		In file is the connection to database :
 
 | private readonly string conn_string = "Server=cs6400db.ryan-moore.dev; Port=5432; User Id = DBUser; Password=group003; Database=CS6400"; |
 | ------------------------------------------------------------ |
 | This was the private database we created to used in the simulation for our group. |
 
-​    4. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**SqlTextAll.cs**      
+ [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**SqlTextAll.cs**      
 
 ​		Queries that make up functionalities as per the spec requirements. 
 
@@ -36,3 +37,20 @@
 - Developed unit tests using Junit and UI tests using Espresso after project completion.
 
 - Contributed to the program with clean and robust code using Java and XML with Android Studio.
+
+[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/**Docs**/
+
+​		Documents translated from spec requirements. [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[WordFind6300](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300)/[app](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app)/[src](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src)/[main](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main)/[java](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main/java)/[edu](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main/java/edu)/[gatech](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main/java/edu/gatech)/[seclass](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main/java/edu/gatech/seclass)/**wordfind6300**/
+
+​		Source files for application.
+
+[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[WordFind6300](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300)/[app](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app)/[src](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src)/[androidTest](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest)/[java](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest/java)/[edu](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest/java/edu)/[gatech](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest/java/edu/gatech)/[seclass](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/androidTest/java/edu/gatech/seclass)/**wordfind6300**/
+
+​		Test files for Junit and Espresso testing.
+
+​		                    
+
+[Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[APK](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/APK)/**WordFind6300.apk**      
+
+​		The apk file to run. 
+
