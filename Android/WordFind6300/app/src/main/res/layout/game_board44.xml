@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutGameBoard55"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameBoard44">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutGameBoard55Letters"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135">
+
+
+        <!-- row 1 -->
+        <Button
+            android:id="@+id/buttonGameBoard11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="A"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard21"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard12"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonGameBoard12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="B"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard22"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard13"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard11"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonGameBoard13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="C"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard23"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard14"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard12"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonGameBoard14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="D"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard13"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- row 2 -->
+        <Button
+            android:id="@+id/buttonGameBoard21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="E"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard31"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard22"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard11" />
+
+        <Button
+            android:id="@+id/buttonGameBoard22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="F"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard32"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard23"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard21"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard12" />
+
+        <Button
+            android:id="@+id/buttonGameBoard23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="G"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard33"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard24"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard22"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard13" />
+
+        <Button
+            android:id="@+id/buttonGameBoard24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="H"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard34"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard23"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard14" />
+
+        <!-- row 3 -->
+        <Button
+            android:id="@+id/buttonGameBoard31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="I"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard41"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard32"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard21" />
+
+        <Button
+            android:id="@+id/buttonGameBoard32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="J"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard42"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard33"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard31"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard22" />
+
+        <Button
+            android:id="@+id/buttonGameBoard33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="K"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard43"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard34"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard32"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard23" />
+
+        <Button
+            android:id="@+id/buttonGameBoard34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="L"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard44"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard33"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard24" />
+
+
+        <!-- row 4 -->
+        <Button
+            android:id="@+id/buttonGameBoard41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="M"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard42"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard31" />
+
+        <Button
+            android:id="@+id/buttonGameBoard42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="N"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard43"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard41"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard32" />
+
+        <Button
+            android:id="@+id/buttonGameBoard43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="O"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard44"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard42"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard33" />
+
+        <Button
+            android:id="@+id/buttonGameBoard44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="P"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard43"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard34" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/wordDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="#4B03A9F4"
+        android:maxLines="1"
+        android:scrollbars="horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <Button
+        android:id="@+id/buttonExitGame"
+        android:layout_width="127dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonReRoll"
+        android:layout_width="126dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="onReRollClicked"
+        android:text="ReRoll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/timeDisplay"
+        android:layout_width="404dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="40dp"
+        android:background="#009688"
+        android:gravity="center"
+        android:inputType="textImeMultiLine"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="72sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.60" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.74" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9015048" />
+
+    <Button
+        android:id="@+id/buttonScoreWord"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#4CAF50"
+        android:text="Score Word"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <TextView
+        android:id="@+id/scoreDisplay"
+        android:layout_width="99dp"
+        android:layout_height="55dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="48sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonReRoll"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toEndOf="@+id/buttonExitGame"
+        app:layout_constraintTop_toBottomOf="@+id/timeDisplay" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

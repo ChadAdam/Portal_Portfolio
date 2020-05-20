@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameBoard88">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutGameBoard55Letters"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135">
+
+
+        <!-- row 1 -->
+        <Button
+            android:id="@+id/buttonGameBoard11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="A"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard21"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard12"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="B"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard22"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard13"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard11"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="C"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard23"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard14"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard12"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="D"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard24"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard15"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard13"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z15"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard25"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard16"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard14"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z16"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard26"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard17"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard15"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z17"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard27"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard18"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard16"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z18"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard28"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard17"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingBottom="5px"/>
+
+        <!-- row 2 -->
+        <Button
+            android:id="@+id/buttonGameBoard21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="E"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard31"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard22"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard11"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="F"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard32"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard23"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard21"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard12"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="G"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard33"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard24"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard22"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard13"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="H"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard34"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard25"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard23"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard14"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard25"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z25"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard35"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard26"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard14"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard15"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard26"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z26"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard36"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard27"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard25"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard16"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard27"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z27"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard37"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard28"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard26"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard17"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard28"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z28"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard38"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard27"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard18"
+            android:paddingBottom="5px"/>
+
+        <!-- row 3 -->
+        <Button
+            android:id="@+id/buttonGameBoard31"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="I"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard41"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard32"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard21"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard32"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="J"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard42"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard33"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard31"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard22"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard33"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="K"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard43"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard34"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard32"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard23"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard34"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="L"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard44"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard35"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard33"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard24"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard35"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z35"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard45"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard36"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard34"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard25"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard36"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z36"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard46"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard37"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard35"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard26"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard37"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z37"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard47"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard38"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard36"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard27"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard38"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z38"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard48"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard37"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard28"
+            android:paddingBottom="5px"/>
+
+        <!-- row 4 -->
+        <Button
+            android:id="@+id/buttonGameBoard41"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="M"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard51"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard42"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard31"
+            android:paddingBottom="5px"/>
+
+
+        <Button
+            android:id="@+id/buttonGameBoard42"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="N"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard52"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard43"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard41"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard32"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard43"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="O"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard53"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard44"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard42"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard33"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard44"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="P"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard54"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard45"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard43"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard34"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard45"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z45"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard55"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard46"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard44"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard35"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard46"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z46"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard56"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard47"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard45"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard36"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard47"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z47"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard57"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard48"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard46"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard37"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard48"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z48"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard58"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard47"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard38"
+            android:paddingBottom="5px"/>
+
+        <!-- row 5 -->
+        <Button
+            android:id="@+id/buttonGameBoard51"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z51"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard61"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard52"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard41"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard52"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="N"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard62"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard43"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard41"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard42"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard53"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="O"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard63"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard44"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard42"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard43"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard54"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="P"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard64"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard45"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard43"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard44"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard55"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z55"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard65"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard56"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard54"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard45"
+            android:paddingBottom="5px"/>
+
+
+        <Button
+            android:id="@+id/buttonGameBoard56"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z56"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard66"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard57"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard45"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard46"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard57"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z57"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard67"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard58"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard56"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard47"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard58"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z58"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard68"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard57"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard48"
+            android:paddingBottom="5px"/>
+
+        <!-- row 6 -->
+        <Button
+            android:id="@+id/buttonGameBoard61"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z61"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard71"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard62"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard51"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard62"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z62"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard72"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard63"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard61"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard52"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard63"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z63"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard73"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard64"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard62"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard53"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard64"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z64"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard74"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard65"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard63"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard54"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard65"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z65"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard75"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard66"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard64"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard55"
+            android:paddingBottom="5px"/>
+
+
+        <Button
+            android:id="@+id/buttonGameBoard66"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z66"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard76"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard67"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard65"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard56"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard67"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z67"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard77"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard68"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard66"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard57"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard68"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z68"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard78"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard67"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard58"
+            android:paddingBottom="5px"/>
+
+        <!-- row 7 -->
+        <Button
+            android:id="@+id/buttonGameBoard71"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z71"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard81"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard72"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard61"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard72"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z72"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard82"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard73"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard71"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard62"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard73"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z73"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard83"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard74"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard72"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard63"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard74"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z74"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard84"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard75"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard73"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard64"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard75"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z75"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard85"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard76"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard74"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard65"
+            android:paddingBottom="5px"/>
+
+
+        <Button
+            android:id="@+id/buttonGameBoard76"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z76"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard86"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard77"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard75"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard66"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard77"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z77"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard87"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard78"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard76"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard67"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard78"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z78"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonGameBoard88"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard77"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard68"
+            android:paddingBottom="5px"/>
+
+        <!-- row 8 -->
+        <Button
+            android:id="@+id/buttonGameBoard81"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z81"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard82"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard71"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard82"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z82"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard83"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard81"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard72"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard83"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z83"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard84"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard82"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard73"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard84"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z84"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard85"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard83"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard74"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard85"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z85"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard86"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard84"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard75"
+            android:paddingBottom="5px"/>
+
+
+        <Button
+            android:id="@+id/buttonGameBoard86"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z86"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard87"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard85"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard76"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard87"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z87"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonGameBoard88"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard86"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard77"
+            android:paddingBottom="5px"/>
+
+        <Button
+            android:id="@+id/buttonGameBoard88"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="onLetterClicked"
+            android:text="Z88"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/buttonGameBoard87"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGameBoard78"
+            android:paddingBottom="5px"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <TextView
+        android:id="@+id/wordDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="#4B03A9F4"
+        android:maxLines="1"
+        android:scrollbars="horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <Button
+        android:id="@+id/buttonExitGame"
+        android:layout_width="127dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonReRoll"
+        android:layout_width="126dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="onReRollClicked"
+        android:text="ReRoll"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/timeDisplay"
+        android:layout_width="404dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="40dp"
+        android:background="#009688"
+        android:gravity="center"
+        android:inputType="textImeMultiLine"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="72sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.60" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.74" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9015048" />
+
+    <Button
+        android:id="@+id/buttonScoreWord"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#4CAF50"
+        android:text="Score Word"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <TextView
+        android:id="@+id/scoreDisplay"
+        android:layout_width="99dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonReRoll"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toEndOf="@+id/buttonExitGame"
+        app:layout_constraintTop_toBottomOf="@+id/timeDisplay" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
