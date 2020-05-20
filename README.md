@@ -40,7 +40,7 @@
 
 [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/**Docs**/
 
-​		Documents translated from spec requirements. 
+​		Documents translated from spec requirements and used to manage project. 
 
 [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[Android](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android)/[WordFind6300](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300)/[app](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app)/[src](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src)/[main](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main)/[java](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main/java)/[edu](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main/java/edu)/[gatech](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main/java/edu/gatech)/[seclass](https://github.com/ChadAdam/Portal_Portfolio/tree/master/Android/WordFind6300/app/src/main/java/edu/gatech/seclass)/**wordfind6300**/
 
