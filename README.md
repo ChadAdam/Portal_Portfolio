@@ -22,7 +22,7 @@
 
 | private readonly string conn_string = "Server=Server_Name; Port=Port_Number; User Id = DBUser; Password=Passwd; Database=DB"; |
 | ------------------------------------------------------------ |
-| This is the template we used to connect to the db in the simulation for our group. |
+| This is the template we used to connect to the db for our group. |
 
  [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**SqlTextAll.cs**      
 
