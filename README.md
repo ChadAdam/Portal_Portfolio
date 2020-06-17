@@ -20,7 +20,7 @@
 
 ​		In file is the connection to database :
 
-| private readonly string conn_string = "Server=cs6400db.ryan-moore.dev; Port=5432; User Id = DBUser; Password=group003; Database=CS6400"; |
+| private readonly string conn_string = "Server=cs.dev; Port=5432; User Id = DBUser; Password=group003; Database=CS64"; |
 | ------------------------------------------------------------ |
 | This was the private database we created to use in the simulation for our group. |
 
