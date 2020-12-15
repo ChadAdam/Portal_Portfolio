@@ -6,7 +6,7 @@
 
 <img src="images\Screenshot_1607891172.png" width="300" height="500">
 
-The first screen is the weekly weather forecast in a scrollable manner. The weather data for the current day is featured with more emphasis than the others. The weather data being the day's humidity percentage , max temperature  and min temperature. 
+The first screen is the weekly weather forecast in a scrollable manner. The weather data for the current day is featured with more emphasis than the others. The weather data being the day's humidity percentage ,max temperature and min temperature. 
 
 At the same time when you initially open the app you will get a notification showing this same information. These notifications will show every few hours to give you up to date information.  If you click the notification you will be sent to the screen that shows more information about the day or you can click on any other day to get the same information for that day.
 
@@ -16,19 +16,19 @@ Whether you clicked the notification or the screen days themselves you will end 
 
 <img src="images\Screenshot_1607891261.png" width="300" height="500">
 
-If you swipe right on the weather detail screen you will come to a visualization of the how an average human would react given the weather details (like temperature) and the clothes you chose to wear. Tan means you are wearing the perfect amount of clothes , blue means you will be cold( You need more clothes) , and red means you will be hot ( You need less clothes). 
+If you swipe right on the weather detail screen you will come to a visualization of the how an average human would react given the weather details (like temperature) and the clothes you chose to wear. Tan means you are wearing the perfect amount of clothes ,blue means you will be cold( You need more clothes) ,and red means you will be hot( You need less clothes). 
 
 The temperature used to analyze with the clothes is the average temperature put into either a heat index equation or a wind chill equation if applicable. The heat index equation is`(HI = -42.379 + 2.04901523*T + 10.14333127*RH - .22475541*T*RH - .00683783*T*T - .05481717*RH*RH + .00122874*T*T*RH + .00085282*T*RH*RH - .00000199*T*T*RH*RH`) where T=Temp & RH=Humidity & T is higher than 79 F. The wind chill equation is `35.74 + 0.6215T – 35.75 (V^0.16) + 0.4275T (V^0.16)` where T =temp & V=Wind Velocity & T is lower than 50 F.
 
 <img src="images\Screenshot_1607985606.png" width="300" height="500">
 
-It might be helpful to know that the screen where you customize the clothes you are wearing can be activated in 2 ways. The first is to click "Choose Clothes" on the figure screen shown prior. But you cannot get to this screen when you first activate the app since the app needs to know your clothes preferences to show you the figure screen. As such when you first use the app swiping right on the weather detail screen will send you to this screen with a message saying " Clothes need to be set". Every following activation of this screen will not show this message as there will be preferences set no matter if you restart the app or not. 
+It might be helpful to know that the screen where you customize the clothes you are wearing can be activated in 2 ways. The first is to click "Choose Clothes" on the figure screen shown prior. But you cannot get to this screen when you first activate the app since the app needs to know your clothes preferences to show you the figure screen. As such when you first use the app swiping right on the weather detail screen will send you to this screen with a message saying "Clothes need to be set". Every following activation of this screen will not show this message as there will be preferences set no matter if you restart the app or not. 
 
 <img src="images\Screenshot_1607992090.png" width="300" height="500">
 
 <img src="images\Screenshot_1607991453.png" width="300" height="500">
 
-Let's say for example it is 55 degrees outside. You are for some reason only wearing a hat and tie.  As you would think you your arms , legs , chest and head would be freezing. 
+Let's say for example it is 55 degrees outside. You are for some reason only wearing a hat and tie.  As you would think your arms ,legs ,chest and head would be freezing. 
 
 <img src="images\Screenshot_1607991936.png" width="300" height="500">
 
@@ -42,13 +42,13 @@ But let's you realize your mistake and decide now to put on a coat. This time yo
 
 <img src="images\Screenshot_1607992666.png" width="300" height="500">
 
-If you go back to the main screen you can change some settings by clicking on the 3 dots in the right corner of the screen. You can switch between Metric and Fahrenheit. You can also switch your location. At the start we were in New York City , but now let's change to Miami. The first image of the main screen is in Fahrenheit and the second is in Metric for Miami. 
+If you go back to the main screen you can change some settings by clicking on the 3 dots in the right corner of the screen. You can switch between Metric and Fahrenheit. You can also switch your location. At the start we were in New York City ,but now let's change to Miami. The first image of the main screen is in Fahrenheit and the second is in Metric for Miami. 
 
 ## Android Game using Java and SQLite                                                      
 
 - Translate requirements into Project plan, Test plan, Use Case Model, Design Document.
 
-- Participated in complete Software Development Life Cycle (SDLC): Requirements, Design, Implementation, Test, Maintenance.
+- Participated in complete Software Development Life Cycle (SDLC): Requirements,Design, Implementation,Test,Maintenance.
 
 - Developed unit tests using Junit and UI tests using Espresso after project completion.
 
