@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WordFind6300</string>
+
+    <string name="buttonPlayGame">Play A Word Game</string>
+    <string name="buttonGameStatistics">View Game Score Statistics</string>
+    <string name="buttonWordStatistics">View Word Statistics</string>
+    <string name="buttonGameSettings">Adjust Game Settings</string>
+
+    <string name="buttonGameBoardExit">GameBoard</string>
+    <string name="buttonGameHistoryExit">Exit game history</string>
+    <string name="buttonWordCounterExit">Exit word counter</string>
+    <string name="buttonGameSettingsExit">Exit Game Setting</string>
+
+</resources>
