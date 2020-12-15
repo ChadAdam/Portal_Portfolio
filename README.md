@@ -16,7 +16,7 @@ Whether you clicked the notification or the screen days themselves you will end 
 
 <img src="images\Screenshot_1607891261.png" width="300" height="500">
 
-If you swipe right on the weather detail screen you will come to a visualization of the how an average human would react given the weather details and the clothes you chose to wear. Tan means you are wearing the perfect amount of clothes , blue means you will be cold( You need more clothes) , and red means you will be hot ( You need less clothes). 
+If you swipe right on the weather detail screen you will come to a visualization of the how an average human would react given the weather details (like temperature) and the clothes you chose to wear. Tan means you are wearing the perfect amount of clothes , blue means you will be cold( You need more clothes) , and red means you will be hot ( You need less clothes). 
 
 The temperature used to analyze with the clothes is the average temperature put into either a heat index equation or a wind chill equation if applicable. The heat index equation is`(HI = -42.379 + 2.04901523*T + 10.14333127*RH - .22475541*T*RH - .00683783*T*T - .05481717*RH*RH + .00122874*T*T*RH + .00085282*T*RH*RH - .00000199*T*T*RH*RH`) where T=Temp & RH=Humidity & T is higher than 79 F. The wind chill equation is `35.74 + 0.6215T – 35.75 (V^0.16) + 0.4275T (V^0.16)` where T =temp & V=Wind Velocity & T is lower than 50 F.
 
