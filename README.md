@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Android Weather App with a Visual Feedback of how the Weather Data Affects What We Should Wear    
 
 - The goal of the project is to help user know better which actions they should take when choosing clothes using the weather data they receive daily.
@@ -40,6 +41,8 @@ But let's you realize your mistake and decide now to put on a coat. This time yo
 
 If you go back to the main screen you can change some settings by clicking on the 3 dots in the right corner of the screen. You can switch between Metric and Fahrenheit. You can also switch your location. At the start we were in New York City , but now let's change to Miami. The first image of the main screen is in Fahrenheit and the second is in Metric for Miami. 
 
+=======
+>>>>>>> 13cccba013c04044bf98cc1c0cd0d43dafe432e7
 # Graduates Study Portfolio
 
 ## Database Design and Management using PostgreSQL and C#       
@@ -64,7 +67,11 @@ If you go back to the main screen you can change some settings by clicking on th
 
 | private readonly string conn_string = "Server=Server_Name; Port=Port_Number; User Id = DBUser; Password=Passwd; Database=DB"; |
 | ------------------------------------------------------------ |
+<<<<<<< HEAD
 | This is the template we used to connect to the db for our group. The password cannot be shared online. |
+=======
+| This is the template we used to connect to the db for our group. |
+>>>>>>> 13cccba013c04044bf98cc1c0cd0d43dafe432e7
 
  [Portal_Portfolio](https://github.com/ChadAdam/Portal_Portfolio)/[DB](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks)/[BurdellsRamblinWrecks](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks)/[Queries](https://github.com/ChadAdam/Portal_Portfolio/tree/master/DB/BurdellsRamblinWrecks/BurdellsRamblinWrecks/Queries)/**SqlTextAll.cs**      
 
