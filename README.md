@@ -1,6 +1,6 @@
 # **Graduates Study Portfolio**
 
-## Android Weather App with a Visual Feedback of how the Weather Data Affects What We Should Wear    
+## Forecast Clothes Android Weather App with a Visual Feedback of how the Weather Data Affects What We Should Wear    
 
 - The goal of the project is to help user know better which actions they should take when choosing clothes using the weather data they receive daily.
 
